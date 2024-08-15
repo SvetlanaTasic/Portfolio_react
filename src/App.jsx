@@ -3,11 +3,11 @@ import React from 'react';
 import './main.jsx';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About.jsx'
 import Technologies from './components/Technologies.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
+import Education from "./components/Education.jsx"
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
-        <About />
+        <Education />
         <Technologies />
         <Experience />
         <Projects />

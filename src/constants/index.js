@@ -1,76 +1,105 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import ShoppingCart from "../assets/projects/ShoppingCart.png";
+import ExpenceTracker from "../assets/projects/ExpenceTracker.png";
+import Food from "../assets/projects/Food.png";
+import WeatherApp from "../assets/projects/WeatherApp.png";
+import Štoperica from "../assets/projects/Štoperica.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated frontend developer with a strong focus on creating dynamic and visually engaging web applications. My expertise lies in utilizing React along with modern technologies such as Tailwind CSS and Chakra UI to build user interfaces that are both aesthetically pleasing and functional. I am adept at incorporating responsive design principles to ensure applications perform well across various devices and screen sizes.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+I have experience with a range of tools and libraries, including react-icons for integrating icons seamlessly into applications. My skills extend to managing version control with Git and organizing project workflows using JIRA. I am proficient in troubleshooting CSS issues and optimizing application performance to deliver exceptional user experiences.
+
+With a keen eye for detail and a passion for problem-solving, I am committed to staying updated with the latest industry trends and best practices to continually enhance my development skills.`;
+
+export const EDUCATION = [
+  {
+    year: "2022 - 2023",
+    role: "Web development (JavaScript&React)  ",
+    company: "IT Bootcamp, Belgrade",
+    url: "https://itbootcamp.rs/"
+
+  },
+  {
+    year: "2019 - 2020",
+    role: "Frontend Developer (JavaSript&React)  ",
+    company: "Cubes school, Belgrade",
+    url: "https://cubes.edu.rs/"
+
+  },
+  {
+    year: "2010 - 2016",
+    role: "Master of Arts in Philology  ",
+    company: "University of Niš",
+    url: "https://www.filfak.ni.ac.rs/",
+  }];
+
+
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2023 - 2023",
+    role: "Frontent developer",
+    company: "You test me",
+    url: "https://www.youtestme.com/online-examination-software/",
+    description: `I worked on implementing the visual segment using HTML, SCSS, and also on the interactivity of visual elements. I modified existing elements through components in JSF and PrimeFaces, as well as created new ones as needed.  YouTestMe GetCertified is a software for knowledge evaluation and certification. 
+It features automated test and answer generators, organizing questions in question pools, users into groups, customizable security roles, certificate designer, reporting system and much more.`,
+    technologies: ["HTML5", "SASS", "Figma", "Java", "PrimeFaces", "JSF"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: " 2023 - 2023",
+    role: "React Developer",
+    company: "GOL-IT Consulting GmbH, Erkelenz, Deutchland",
+    url: "https://gol-it.de/",
+    description: "I had the pleasure of working on a mobile app project called “Smappecle”, where I showcased my capability in utilizing React to develop user-friendly apps. I worked with components to create the visual elements of the application, used SQLite databases to store and retrieve data locally, and employed APIs to interact with external services and retrieve data from remote sources.“Smappecle“ is an abbreviation for “Smart Application Enterprise Client Environment“. This indicates that Smappecle is an application designed as a smart client environment for enterprises, which may include various functionalities and tools for efficient management and operation in a business setting.",
+    technologies: ["HTML", "CSS", "React", "TypeScript", "SQLite", "Bitbucket", "JIRA"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2016 - 2022",
+    role: "School Teacher ",
+    company: " Primary School 'Skadarlija' ,  Belgrade ",
+    url: "https://osskadarlija.edu.rs/",
+    description: "During six years in my teaching career, I developed skills in teaching and team management. While editing the school magazine, I mastered the skills of creating projects using InDesign and Adobe Photoshop.",
+    technologies: ["Adobe InDesing", "Adobe Photoshop"],
   },
 ];
 
+
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Shopping Cart",
+    image: ShoppingCart,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "TailwindCss", "JavaScript", "React", "Redux"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Expence Tracker",
+    image: ExpenceTracker,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An expense tracker is a tool or application that helps users monitor and manage their expenses and budget.",
+    technologies: ["HTML", "CSS", "Chakra", "JavaScript", "React", "Responsive Desing"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    title: "Food reciepe",
+    image: Food,
+    description: "A food recipe app is an application that allows users to search for, browse, and manage recipes for preparing meals.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Weather App",
+    image: WeatherApp,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A weather app is an application that provides information about weather conditions.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
+  },
+  {
+    title: "Štoperica",
+    image: Štoperica,
+    description: "A Štoperica is a device or application that measures time intervals, typically using a stopwatch that can be started, paused, and reset.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+381606060178",
+  email: "svetlana.tasic991@gmail.com",
 };

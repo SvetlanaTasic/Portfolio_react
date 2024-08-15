@@ -1,9 +1,11 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { FaHtml5 } from "react-icons/fa";
+import { SiTailwindcss } from 'react-icons/si';
+import { SiBootstrap } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
+import { SiReact } from 'react-icons/si';
+import { SiGit } from 'react-icons/si';
+import { SiSass } from 'react-icons/si';
+import { SiSqlite } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -37,40 +39,53 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800p-4">
-                    <RiReactjsLine className="text-7xl text-cyan-400" />
+                    <FaHtml5 className="text-7xl text-orange-600" />
                 </motion.div>
+
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(1)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800p-4">
-                    <TbBrandNextjs className="text-7xl" />
-                </motion.div>
-                <motion.div
-                    variants={iconVariants(5)}
-                    initial="initial"
-                    animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800p-4">
-                    <SiMongodb className="text-7xl text-green-500" />
+                    <SiSass className="text-7xl text-pink-500" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800p-4">
-                    <DiRedis className="text-7xl text-red-700" />
+                    <SiBootstrap className="text-7xl text-purple-600" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(6)}
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800p-4">
+                    <SiTailwindcss className="text-7xl text-blue-500" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(2)}
                     initial="initial"
                     animate="animate" className="rounded-2xl border-4 border-neutral-800p-4">
-                    <FaNodeJs className="text-7xl text-green-500" />
+                    <SiJavascript className="text-7xl text-yellow-500 " />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(4)}
                     initial="initial"
                     animate="animate" className="rounded-2xl border-4 border-neutral-800p-4">
-                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <SiReact className="text-7xl text-blue-500 animate-spin" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(4)}
+                    initial="initial"
+                    animate="animate" className="rounded-2xl border-4 border-neutral-800p-4">
+                    <SiSqlite className="text-7xl text-green-500" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(2)}
+                    initial="initial"
+                    animate="animate" className="rounded-2xl border-4 border-neutral-800p-4">
+                    <SiGit className="text-7xl text-gray-600" />
                 </motion.div>
             </motion.div>
         </div >
