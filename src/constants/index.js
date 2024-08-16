@@ -66,6 +66,7 @@ It features automated test and answer generators, organizing questions in questi
 export const PROJECTS = [
   {
     title: "Shopping Cart",
+    url: "https://redux-shopping-cart-ten.vercel.app/",
     image: ShoppingCart,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
@@ -73,6 +74,7 @@ export const PROJECTS = [
   },
   {
     title: "Expence Tracker",
+    url: "https://expence-tracker-wine.vercel.app/",
     image: ExpenceTracker,
     description:
       "An expense tracker is a tool or application that helps users monitor and manage their expenses and budget.",
@@ -80,12 +82,14 @@ export const PROJECTS = [
   },
   {
     title: "Food reciepe",
+    url: "https://food-reciepe-flax.vercel.app/",
     image: Food,
     description: "A food recipe app is an application that allows users to search for, browse, and manage recipes for preparing meals.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
     title: "Weather App",
+    url: "https://weather-react-liart-psi.vercel.app/",
     image: WeatherApp,
     description:
       "A weather app is an application that provides information about weather conditions.",
@@ -93,6 +97,7 @@ export const PROJECTS = [
   },
   {
     title: "Štoperica",
+    url: "https://stoperica-na-cirilici.vercel.app/",
     image: Štoperica,
     description: "A Štoperica is a device or application that measures time intervals, typically using a stopwatch that can be started, paused, and reset.",
     technologies: ["HTML", "CSS", "JavaScript"],
